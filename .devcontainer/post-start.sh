@@ -4,5 +4,5 @@
 . ${NVM_DIR}/nvm.sh && nvm install --lts
 
 # Restore the packages
-pushd /workspaces/peakplan/backend && bundle && popd
-pushd /workspaces/peakplan/frontend && npm install --force && popd
+pushd /workspace/backend && bundle && popd
+pushd /workspace/frontend && npm install --force && popd
